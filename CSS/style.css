@@ -1,0 +1,416 @@
+:root {
+    --primary-font: "Open sans", "sans-serif";
+    --secondary-font: "Ubuntu", "sans-serif" ;
+    --heading: "Abril Fatface", ;
+    --primary-color: #0f2f44;
+    --secondary-color: #ffc712;
+    --dark-text: #0f2f44;
+    --light-text:#fefefe;
+    --section-bg:#f5f5f5;
+
+
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+.container {
+    width: 1170px;
+    margin: 0 auto;
+
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.img{
+    max-width: 100%;
+}
+
+.width{
+    width: 33.3%;
+}
+
+.w50{
+    width: 50%;
+}
+
+
+
+
+/* Topbar Css Start */
+
+#topbar{
+    background-color: var(--primary-color);
+    font-size: 16px;
+    line-height: 60px;
+    
+}
+#topbar .row{
+    justify-content: space-between;
+    align-items: center;
+}
+#topbar p{
+    color: var(--light-text);
+}
+
+/* Topbar Css Finish */
+
+
+/* Menu Css Start */
+
+#Menu{
+    line-height: 95px;
+    font-size: 16px;
+}
+
+#Menu .row{
+    justify-content: space-between;
+    align-items: center;
+}
+
+#Menu ul li a{
+    font-size: 16px;
+    padding: 19px;
+    
+}
+/* Menu Css Finish */
+
+/* Banner Css Start */
+
+#banner{
+    background-image: url(./../pictures/banner_bg.jpg);
+    height: 598px;
+    background-position: center;
+   
+}
+
+#banner .row{
+    height: 100%;
+    align-items: center;
+   
+
+}
+#banner h1{
+    font-family: var(--heading);
+    font-size: 80px;
+    text-transform: uppercase;
+    color: var(--primary-color);
+}
+
+#banner h3{
+    font-family: var(--secondary-font);
+    font-size: 40px;
+    color: var(--dark-text);
+}
+
+#banner h4{
+    font-family: var(--secondary-font);
+    font-size: 32px;
+    color: #8484bf;
+    letter-spacing: 9.5px:
+}
+
+#banner p{
+    font-family: var(--primary-font);
+    font-size: 14px;
+    color: var(--dark-text);
+    width: 45%;
+    line-height: 20px;
+    width: 40%;
+}
+ 
+#banner .inner_container a{
+    font-family: var(--secondary-font);
+    font-size: 20px;
+    color: #f5f5f5;
+    width: 163px;
+    height: 49px;
+    border: 1px solid #f5f5f5;
+    background-color: #8484bf;
+    border-radius: 5px;
+    line-height: 55px;
+    padding: 10px 19px;
+}
+/* Banner Css Finish */
+
+/* About Css Start */
+
+.About{
+    margin: 100px ;
+}
+.About .row{
+    align-items: center;
+}
+
+.About #about_info{
+    width: 50%;
+}
+
+#about_info h6{
+    font-family: var(--secondary-font);
+    font-size: 14px;
+    color: var(--dark-text);
+    line-height: 0;
+}
+
+#about_info h2{
+    font-family: var(--heading);
+    font-size: 32px;
+    color: var(--dark-text);
+    
+    
+}
+
+#about_info p{
+    font-family: var(--primary-font);
+    font-size: 16px;
+    margin: 45px 0 11px;
+    color: var(--dark-text);
+}
+
+#about_info ul li{
+    font-family: var(--primary-font);
+    font-size: 16px;
+    color: var(--dark-text);
+    margin: 17px;
+}
+.About #about_info a{
+    font-family: var(--secondary-font);
+    font-size: 20px;
+    color: var(--dark-text);
+    width: 142px;
+    height: 47px;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 14px 20px;
+    margin-right: 9px;
+    line-height: 44px;
+    transition: 0.5s;
+    box-shadow: 5px 5px 5px 2px gray;;
+}
+#about_info a:hover{
+    background-color: var(--secondary-color);
+}
+
+  
+
+.About #about_img{
+    width: 50%;
+}
+/* About Css Finish */
+
+/* Skill Css Start */
+
+.Skill{
+    margin: 182px;
+}
+#skill_img{
+    width: 50%;
+  
+}
+#skill_info{
+    width: 50%;
+    text-align: right;
+}
+
+#skill_info h6{
+    font-family: var(--secondary-font);
+    font-size: 14px;
+    color: var(--dark-text);
+
+}
+
+#skill_info h2{
+    font-family: var(--heading);
+    font-size: 32px;
+    color: var(--primary-color);
+}
+
+#skill_info p{
+    font-family: var(--primary-font);
+    font-size: 16px;
+    color: var(--dark-text);
+    
+}
+/* Skill Css Finish */
+
+/* Service CSs Start */
+
+.Service{
+    margin: 181px;
+    background: var(--section-bg);
+}
+.Service .row{
+    align-items: center;
+}
+#service_heading{
+    text-align: center;
+    width: 100%;
+}
+#service_heading h6{
+    font-family: var(--secondary-font);
+    font-size: 14px;
+    color: var(--dark-text);
+    
+}
+#service_heading h1{
+    font-family: var(--heading);
+    font-size: 32px;
+    color: var(--primary-color);
+}
+
+#Ui h5{
+    font-family: var(--secondary-font);
+    font-size: 16px;
+    color: var(--dark-text);
+}
+#Ui p{
+    font-family: var(--primary-font);
+    font-size: 14px;
+    color: var(--primary-color);
+   
+}
+
+#video h5{
+    font-family: var(--secondary-font);
+    font-size: 20px;
+    color: var(--primary-color);
+
+}
+#video p{
+    font-family: var(--primary-font);
+    font-size: 14px;
+    color: var(--dark-text);
+}
+/* Service Css Finish */
+
+
+/* Portfolio Css Start */
+
+.Portfolio{
+    margin: 100px;
+}
+
+#portfolio_heading{
+    text-align: center;
+    width: 100%;
+}
+
+#portfolio_heading h6{
+    font-family: var(--secondary-font);
+    font-size: 14px;
+    color: var(--dark-text);
+}
+
+#portfolio_heading h2{
+    font-family: var(--heading);
+    font-size: 32px;
+    color: var(--primary-color);
+}
+#portfolio_img .btn a{
+    font-family: var(--secondary-font);
+    font-size: 20px;
+    color: var(--dark-text);
+    width: 137px;
+    height: 50px;
+    border: 1px solid wheat;
+    border-radius: 5px;
+    padding: 16px 20px ;
+    line-height: 60px;
+    margin-right: 50%;
+    transition: 0.5s;
+    
+}
+.btn a:hover{
+    background-color: var(--secondary-color);
+}
+
+
+/* Portfolio Css Finish */
+
+/* Testimonial Css Start */
+
+.Testimonial{
+    margin: 160px;
+    background-color: #f5f5f5;
+  
+}
+
+#testimonial_heading{
+    text-align: center;
+}
+#testimonial_heading h6{
+    font-family: var(--secondary-font);
+    font-size: 14px;
+    color: var(--dark-text);
+
+}
+#testimonial_heading h2{
+    font-family: var(--heading);
+    font-size: 32px;
+    color: var(--primary-color);
+}
+
+#testimonial_info{
+    margin: 60px;
+}
+/* Testiminial Css Finish */
+
+/* Blog Css Start*/
+
+.Blog{
+    margin: 160px;
+}
+#blog_heading{
+    text-align: center;
+
+}
+#blog_heading h6{
+    font-family: var(--secondary-font);
+    font-size: 14px;
+    color: var(--dark-text);
+
+}
+#blog_heading h2{
+    font-family: var(--heading);
+    font-size: 32px;
+    color: var(--dark-text);
+}
+
+#blog_img{
+    margin: 60px;
+}
+#blog_img .btn a{
+    font-family: var(--secondary-font);
+    font-size: 20px;
+    color: var(--dark-text);
+    width: 137px;
+    height: 50px;
+    border: 1px solid wheat;
+    border-radius: 5px;
+    padding: 16px 20px ;
+    line-height: 60px;
+    margin-right: 50%;
+    transition: 0.5s;
+    
+}
+#blog_img .btn a:hover{
+    background-color: var(--secondary-color);
+}
+.btn{
+   margin-left: 45%;
+   margin-top: 60px;
+}
+
+/* Blog Css Finish*/
